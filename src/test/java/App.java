@@ -17,6 +17,7 @@ public class App {
             Page page = browser.newPage();
             page.navigate("https://www.demoblaze.com/index.html");
             page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("screenshot.png")));
+
         }
     }
 }
