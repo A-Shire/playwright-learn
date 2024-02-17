@@ -1,4 +1,8 @@
 import { test, expect } from '@playwright/test';
+//const URL = ''
+// test.beforeEach (async ({page})=> {
+  //  await page.goto(URL);
+//})
 test.only('check Java page', async ({page}) =>  {
     page.goto('https://playwright.dev');
     await page.getByRole('link', {name: 'Get Started'}).click();
